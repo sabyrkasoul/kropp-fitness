@@ -3,6 +3,7 @@
   justify-content: space-between;
   align-items: center;
   column-gap: 20px;
+  min-height: var(--header-height);
 }
 
 .header-logo {
@@ -18,7 +19,7 @@
   display: inline-flex;
   align-items: center;
   column-gap: 7px;
-  height: 90px;
+  height: var(--header-height);
   font-weight: 700;
   font-size: 12px;
   line-height: 1.5;

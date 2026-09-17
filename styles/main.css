@@ -185,8 +185,8 @@ button {
   атрибут fill со значением 'none' или начинается с 'url')
  */
 :where([fill]:not(
-  [fill="none"],
-  [fill^="url"]
+  [fill='none'],
+  [fill^='url']
 )) {
   fill: currentColor;
 }
@@ -197,8 +197,8 @@ button {
   атрибут stroke со значением 'none')
  */
 :where([stroke]:not(
-  [stroke="none"],
-  [stroke^="url"]
+  [stroke='none'],
+  [stroke^='url']
 )) {
   stroke: currentColor;
 }
@@ -253,4 +253,20 @@ svg * {
   --container-padding-x: 15px;
 
   --transition-duration: 0.2s;
+}
+
+body {
+  font-family: var(--font-family-base);
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.75;
+  letter-spacing: 0.05em;
+  color: var(--color-light-gray);
+  background-color: var(--color-dark-alt);
+}
+
+h1, h2, h3 {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--color-light);
 }

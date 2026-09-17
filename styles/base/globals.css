@@ -9,9 +9,10 @@ body {
 
 a,
 button,
+label,
 input,
-select,
 textarea,
+select,
 svg * {
   transition-duration: var(--transition-duration);
 }

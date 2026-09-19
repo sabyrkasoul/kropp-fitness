@@ -19,3 +19,29 @@
 .family-image {
   scroll-snap-align: start;
 }
+
+@media (max-width: 1024px) {
+  .family-image {
+    height: 360px;
+  }
+}
+
+@media (max-width: 767px) {
+  .family-image {
+    height: 180px;
+  }
+
+  .family-header {
+    padding-block: 50px;
+  }
+
+  .family-body {
+    column-gap: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .family-title {
+    max-width: 210px;
+  }
+}
